@@ -1,0 +1,2 @@
+New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri http://eserv1/PowerShell/ -Credential $cred
+Import-PSSession $Session -DisableNameChecking
